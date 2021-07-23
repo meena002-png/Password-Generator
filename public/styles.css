@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: consolas;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient( rgb(255, 255, 255),rgb(233, 233, 233), rgb(212, 212, 212));
+}
+
+#password {
+    display: block;
+    width: 500px;
+    height: 50px;
+    margin: 15px 0 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-size: 30px;
+    padding: 0 20px;
+    outline: none;
+    border: none;
+    box-shadow: -4px -4px 10px rgba(255, 255, 255, 1),
+                inset 4px 4px 10px rgba(0, 0, 0, 0.2),
+                inset -4px -4px 10px rgba(255, 255, 255, 1),
+                4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+    background-color: rgb(32, 37, 43);
+    width: 200px;
+    box-sizing: border-box;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.btn:active {
+    background-color: silver;
+    
+}
